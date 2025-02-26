@@ -14,7 +14,6 @@ include 'components/organisms/profile-section.php';
 
 <body>
         <?php
-
         // Llama a la función profileSection y pasa los parámetros necesarios
         profileSection('Javier', isset($_GET['section']) ? $_GET['section'] : 'datos-personales');
         ?>
